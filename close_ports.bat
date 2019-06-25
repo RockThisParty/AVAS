@@ -1,0 +1,1 @@
+netsh advfirewall firewall add rule dir=in action=block protocol=tcp localport=%1 name=»Block_TCP-%1″ 
